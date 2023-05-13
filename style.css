@@ -1,3 +1,7 @@
+.items-nav{
+    justify-content: end;
+}
+
 .cards-container{
     width: 100%;
     justify-content: space-around;
@@ -9,16 +13,56 @@
     
 }
 
+h1,h3,h4{
+    text-align: center;
+}
+
 .banner{
     width: 100%;
     height: 440px;
     background-image: url("./assets/ba1.jpg");
+    background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+.banner-card{
+    width: 30%;
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 170px;
 }
 
 .Info{
     display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.info-cards-img{
+    width: 50%;
+    background-image: url("./assets/honolulu.jpg");
+    background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
 }
 
 .info-cards{
     width: 50%;
+}
+
+.form-consulta{
+    width: 400px;
+    margin: auto;
+}
+
+footer{
+    height: 55.95px;
+}
+
+.footer{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
