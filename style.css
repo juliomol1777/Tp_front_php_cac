@@ -51,6 +51,11 @@ h1,h3,h4{
     width: 50%;
 }
 
+.info-personal{
+    display: flex;
+    justify-content: space-between;
+}
+
 .form-consulta{
     width: 400px;
     margin: auto;
