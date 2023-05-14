@@ -12,31 +12,34 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="./assets/codoacodo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            <img src="./assets/codoacodo.png" alt="" width="70" height="40" class="d-inline-block align-text-top">
             Conf Bs As
           </a>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 items-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Los oradores</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">El lugar y la fecha</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Conviertete en orador</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Comprar tickets</a>
-              </li>
-            </ul>
-          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Los oradores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">El lugar y la fecha</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Conviertete en orador</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success" href="#">Comprar tickets</a>
+            </li>
+          </ul>
+        </div>
         </div>
       </nav>
     </header>
@@ -44,26 +47,26 @@
       <div class="banner">
         <div class="banner-card">
           <h1>Conf Bs As</h1>
-          <p>
-            Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y
-            experiencia de los expertos que
-            están creando el futuro de Internet Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y
-            los oradores de primer
-            nivel que tenemos para ti. Te esperamos!
-          </p>
-          <a href="#" class="btn btn-primary">Quiero ser orador</a>
-          <a href="#" class="btn btn-primary">Comprar tickets</a>
+          <p>Bs As llega por primera vez a Argentina. Un evento para compartir con</p>
+          <p> nuestra comunidad el conocimiento y experiencia de los expertos que </p>
+          <p>están creando el futuro de Internet Ven a conocer a miembros del</p>  
+          <p>evento, a otros estudiantes de Codo a Codo los oradores de primer</p>
+          <p>nivel que tenemos para ti. Te esperamos!</p>
+          <div class="banner-btn">
+          <a href="#" class="btn btn-style">Quiero ser orador</a>
+          <a href="#" class="btn btn-success">Comprar tickets</a>
+        </div>
         </div>
       </div>
-      <div>
-        <h3>Conoce a los</h3>
+      <div class="container-cards padd-container">
+        <h4>Conoce a los</h4>
         <h1>Oradores</h1>
         <div class="row cards-container">
           <div class="col-sm-6 cards">
             <div class="card">
               <img src="./assets/steve.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <a href="#" class="btn btn-primary">Javascript</a>
+                <a href="#" class="btn btn-warning">Javascript</a>
                 <a href="#" class="btn btn-primary">React</a>
                 <h5 class="card-title">Steve Jobs</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -74,7 +77,7 @@
             <div class="card">
               <img src="./assets/bill.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <a href="#" class="btn btn-primary">Javascript</a>
+                <a href="#" class="btn btn-warning">Javascript</a>
                 <a href="#" class="btn btn-primary">React</a>
                 <h5 class="card-title">Bill Gates</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -85,8 +88,8 @@
             <div class="card">
               <img src="./assets/ada.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
-                <a href="#" class="btn btn-primary">Javascript</a>
-                <a href="#" class="btn btn-primary">Startups</a>
+                <a href="#" class="btn btn-warning">Javascript</a>
+                <a href="#" class="btn btn-danger">Startups</a>
                 <h5 class="card-title">Ada Lovelace</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
               </div>
@@ -97,61 +100,63 @@
       <div class="Info">
         <div class="info-cards-img">
         </div>
-        <div class="info-cards">
-          <div class="card">
+        <div class="info-cards bg-dark">
             <div class="card-body">
               <h5 class="card-title">Bs As - Octubre</h5>
               <p class="card-text">Buenos Aires es la provincia y localidad mas grande del estado de Argentina. En los
                 Estados Unidos Honolulu es la mas sureña entre las principales ciudades norteamricanas, aunque el nombre
-                de Honolulu se refiere al area urbana>
+                de Honolulu se refiere al area urbana</p>
                 <a href="#" class="btn btn-primary">Conoce mas</a>
             </div>
+            
           </div>
-        </div>
+        
       </div>
       <div class="form-consulta">
         <h4>Conviertete en un</h4>
         <h3>ORADOR</h3>
-        <p>Anotate como orador para una charla ignite</p>
+        <p>Anotate como orador para una <a href="#">charla ignite</a></p>
         <p>Cuentanos de que quieres hablar?</p>
         <form>
           <div class="info-personal">
-            <div>
+            <div class="input-padd">
               <label for="exampleInputNombre" class="form-label">Nombre</label>
               <input type="text" class="form-control" id="exampleInputNombre" aria-describedby="emailHelp">
             </div>
-            <div>
+            <div class="input-padd">
               <label for="exampleInputApellido" class="form-label">Apellido</label>
               <input type="text" class="form-control" id="exampleInputApellido" aria-describedby="emailHelp">
             </div>
-          </div>
+          </div class="input-padd">
             <textarea rows="4" cols="50" id="exampletextarea" placeholder="Sobre que quieres hablar?"></textarea>
-          <button type="submit" class="btn btn-primary">Enviar</button>
+            <div class="d-grid gap-2 col-6 mx-auto">
+            <button type="submit" class="btn btn-block btn-primary">Enviar</button>
+            </div>
         </form>
       </div>
     </main>
     <footer>
-        <div >
-          <ul class="footer">
-            <li>
+        <div class="footer">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Preguntas frecuentes</a>
             </li>
-            <li>
+            <li class="nav-item">
               <a class="nav-link" href="#">Contactanos</a>
             </li>
-            <li>
+            <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Prensa</a>
             </li>
-            <li>
+            <li class="nav-item">
               <a class="nav-link" href="#">Conferencias</a>
             </li>
-            <li>
+            <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Terminos y condiciones</a>
             </li>
-            <li>
+            <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Privacidad</a>
             </li>
-            <li>
+            <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Estudiantes</a>
             </li>
           </ul>

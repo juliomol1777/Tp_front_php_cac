@@ -1,73 +1,135 @@
-.items-nav{
-    justify-content: end;
-}
 
-.cards-container{
+.cards-container {
     width: 100%;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.cards{
-    max-width: 30%;
-    
+.container-cards {
+    padding-top: 13px;
 }
 
-h1,h3,h4{
+.padd-container{
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cards {
+    max-width: 300px;
+    margin-bottom: 15px;
+}
+
+.card-body>a{
+    font-size: 11px;
+}
+
+.card-body>h5{
+    margin-top: 20px;
+}
+
+
+h1,
+h3,
+h4 {
     text-align: center;
 }
 
-.banner{
+.banner {
     width: 100%;
     height: 440px;
-    background-image: url("./assets/ba1.jpg");
-    background-size:cover;
-  background-position:center;
-  background-repeat:no-repeat;
+    background-image: url("./assets/hawaii3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.banner-card{
-    width: 30%;
+.banner-card {
+    width: 50%;
+    color: white;
+    text-align: center;
     position: absolute;
-    margin-left: 70%;
-    margin-top: 170px;
+    margin-left: 50%;
+    margin-top: 90px;
 }
 
-.Info{
+.banner-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-style{
+    border-color: white;
+    color: white;
+    margin-right: 10px;
+}
+
+.Info {
     display: flex;
     width: 100%;
     height: 300px;
 }
 
-.info-cards-img{
+.info-cards-img {
     width: 50%;
     background-image: url("./assets/honolulu.jpg");
-    background-size:cover;
-  background-position:center;
-  background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.info-cards{
+.info-cards {
     width: 50%;
+    color: white;
+    padding: 10px;
 }
 
-.info-personal{
+.info-personal {
     display: flex;
     justify-content: space-between;
 }
 
-.form-consulta{
+.form-consulta {
     width: 400px;
     margin: auto;
+    padding-top: 20px;
 }
 
-footer{
+.form-consulta>p>a {
+    color: black;
+    text-decoration: underline;
+}
+
+textarea{
+    margin-bottom: 15px;
+}
+
+.input-padd{
+    padding: 8px;
+}
+
+.footer {
     height: 55.95px;
+    margin-top: 30px;
 }
 
-.footer{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
+@media only screen and (max-width: 600px) {
+    .banner-card{
+        font-size: 12px;
+    }
+    .banner-btn>a{
+        font-size: 12px;
+    }
+    .info-cards{
+        font-size: 12px;
+    }
+  }
+
+  @media only screen and (max-width: 960px) {
+    .banner-card{
+        font-size: 13px;
+    }
+    .banner-btn>a{
+        font-size: 13px;
+    }
+  }
