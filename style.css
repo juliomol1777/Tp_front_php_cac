@@ -93,6 +93,7 @@ h4 {
     width: 400px;
     margin: auto;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .form-consulta>p>a {
@@ -100,12 +101,27 @@ h4 {
     text-decoration: underline;
 }
 
+.mb-3{
+    padding-top: 20px;
+    width: 700px;
+}
+
+.venta{
+    text-align: center;
+    margin: 20px;
+}
+
+
 textarea{
     margin-bottom: 15px;
 }
 
 .input-padd{
     padding: 8px;
+}
+
+.compra-ticket{
+    width: 100%;
 }
 
 .footer {
